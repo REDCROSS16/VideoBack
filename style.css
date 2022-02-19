@@ -57,11 +57,26 @@ html, body {
     font-weight: 500;
     margin-bottom: 30px;
 }
-.container .instagram {
-    color: white;
+
+.container svg {
+    width: 64px;
+    height: 64px;
+}
+
+.container svg g {
+    fill: #fff;
     transition: all ease 1.5s;
 }
 
-.container .instagram:hover {
-    color: black;
+.container svg:hover g {
+    fill: black;
+}
+
+.inst {
+    width: 400px;
+    height: 400px;
+}
+
+.hidden {
+    display: none;
 }
